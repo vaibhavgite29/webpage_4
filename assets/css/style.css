@@ -7,6 +7,7 @@ a{
     text-decoration: none;
     color: #fff;
 }
+/* Header Section Start */
 header{
     width: 100%;
     height: 60px;
@@ -29,30 +30,29 @@ header ul li a{
 header ul li .VG{
     color: #f83958;
 }
-header ul img{
-    width:30px;
-    height:20px;
-    padding-top: 8px;
+/* Header Section End */
+/* Banner section Start */
+.banner{
+    width:100%;
+    height: 580px;
+    padding: 0px 125px;
+    background: url(../img/main.jpg);
+    background-size: 100% 100%;
 }
-.banner {
-    width: 100%;
-    height: 600px;
-    padding: 200px 150px;
-    background: url(../img/main.jpg) ;
-    background-size: cover;
-    align-items: center;
+.banner h1{
+    font-weight: normal;
+    font-size: 50px;
+    padding-top: 15%;
 }
-.banner h2 {
-    width: 500px;
-    height: 130px;
-    font-size: 55px;
-    font-weight: 100;
+.banner h2{
+    font-size: 30px;
+    padding-top: 20px;
 }
-.banner h5 {
-    width: 700px;
-    height: 130px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-top:30px;
-    font-size: 25px;
-    font-weight: 900;
+.banner form{
+    width: auto;
+    height: 100px;
+    margin-top: 120px;
+    background-color: #5C327A;
 }
+/* Banner section End */
+
