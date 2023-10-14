@@ -37,16 +37,77 @@
     <section class="banner">
         <h1>"The best place to find <br> the cheapest airfares"</h1>
         <h2>-every single time</h2>
+
         <form action="">
-            <button type="button">
-                <i class="fa-solid fa-plane-departure"></i> Flights
-            </button>
-            <button type="button">
-                <i class="fa-solid fa-shop"></i> Hotels
-            </button>
-            <button type="button">
-                <i class="fa-solid fa-car"></i> Cars
-            </button>
+            <div>
+                <div class="switchButton">
+                    <button type="button" class="active">
+                        <i class="fa-solid fa-plane-departure"></i> Flights
+                    </button>
+                    <button type="button">
+                        <i class="fa-solid fa-shop"></i> Hotels
+                    </button>
+                    <button type="button">
+                        <i class="fa-solid fa-car"></i> Cars
+                    </button>
+                </div>
+                <div class="searchForm">
+                    <label for="origin-city">Origin City</label>
+                    <input type="text" name="origin-city" id="origin-city" placeholder="Enter Origin City">
+
+                    <span><i class="fa-solid fa-arrow-right-arrow-left" style="color:aqua; margin: 5px;"></i></span>
+
+                    <label for="Destination-city">Destination City</label>
+                    <input type="text" name="Destination-city" id="Destination-city"
+                        placeholder="Enter Destination City">
+
+                    <label for="trav-start-date">Start Date</label>
+                    <input type="date" name="trav-start-date" id="trav-start-date" placeholder="Enter Start Date">
+
+                    <label for="trav-end-date">End Date</label>
+                    <input type="date" name="trav-end-date" id="trav-end-date" placeholder="Enter End Date">
+
+                    <label for="Select-passenger">Select-passenger</label>
+                    <select name="Select-passenger" id="Select-passenger">
+                        <option selected>Select Passenger</option>
+                        <option value="1 Pass">1 Passenger</option>
+                        <option value="2 Pass">2 Passenger</option>
+                        <option value="3 Pass">3 Passenger</option>
+                        <option value="4 Pass">4 Passenger</option>
+                        <option value="5 Pass">5 Passenger</option>
+                    </select>
+                </div>
+                    <div class="Trip-types">
+                        <label for="Trip-type">
+                            <i class="fa-solid fa-gear"></i> Trip-types: 
+                        </label>
+                        <select name="Trip-types" id="Trip-types">
+                            <option value="return" selected>Return trip</option>
+                            <option value="destination">Destination trip</option>
+                        </select>
+
+                        <label for="Ticket-class">
+                            <i class="fa-solid fa-ticket"></i> Ticket-class: 
+                        </label>
+                        <select name="Ticket-class" id="Ticket-class">
+                            <option value="Economy" selected>Economy</option>
+                            <option value="Economy">Economy</option>
+                            <option value="Economy">Economy</option>
+                            <option value="Economy">Economy</option>
+                        </select>
+
+
+                        <input type="checkbox" name="DirectFlight" id="DirectFlight">
+                        <label for="DirectFlight">Direct flights only</label>
+
+                        <input type="checkbox" name="Includeflight" id="IncludeFlight">
+                        <label for="IncludeFlight">Include nearly airports</label>
+                    </div>
+            </div>
+            <div>
+                <button type="submit" class="smt"> Search</button>
+            </div>
+
         </form>
 
     </section>
