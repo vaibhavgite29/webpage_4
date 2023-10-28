@@ -7,6 +7,11 @@ a{
     text-decoration: none;
     color: #fff;
 }
+h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
 /* Header Section Start */
 header{
     width: 100%;
@@ -31,6 +36,7 @@ header ul li .VG{
     color: #f83958;
 }
 /* Header Section End */
+
 /* Banner section Start */
 .banner{
     width:100%;
@@ -113,3 +119,259 @@ header ul li .VG{
     text-decoration:  underline;
 }
 /* Banner section End */
+
+/* Fun Section Start */
+.fun{
+    width: 100%;
+    height: 350px;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/banner2.jpg);
+    background-size: 100% 100%;
+}
+.fun h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fun ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fun ul li{
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    width: 130px;
+    height: 125px;
+    background: rgba(0,0,0,0.7);
+}
+.fun ul li p {
+    margin: 5px 5px;
+    font-size: 10px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fun ul li i{
+    font-size: 40px;
+    margin: 5px 5px;
+}
+/* /Fun Section End */
+
+/* Newlatter Section Start */
+.flight{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/flight.jpg);
+    background-size: cover;
+    position: relative;
+}
+.flight .Search{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.flight .Search p{
+    margin-bottom: 30px;
+}
+.flight .Search h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flight .Search .Email{
+    width: 70%;
+    padding: 7px;
+    color: #fff;
+    outline: none;
+    background: none;
+    border: 1px #fff solid;
+    margin-right: 10px;
+}
+.flight .Search .btn{
+    padding: 7px 30px;
+    font-weight: 600;
+    border: none;
+    margin-right: 7px;
+    background-color: #fff;
+}
+/* /Newlatter Section End*/
+
+/* Destination Section Start */
+.destination{
+    width: 100%;
+    color: #fff;
+    height: auto;
+    padding: 50px 125px;
+    background: #20162F;
+}
+.destination ul{
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: 350px 350px;
+    grid-gap: 30px;
+}
+.destination ul li{
+    list-style: none;
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+    border: 5px solid #fff;
+}
+.destination ul li img{
+    width: 100%;
+    height: 180px;
+}
+.destination ul li div.content{
+    color: #000;
+    padding: 15px;
+}
+.destination ul li div.content p{
+    margin-top: 20px;
+}
+div.content span{
+    color: orange;
+}
+/* /Destination Section End */
+
+/* Estimate Section Start */
+.Estimate{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 125px;
+    background-color: #664CAD;
+}
+.Estimate h2{
+    color: #fff;
+    font-size: 40px;
+    text-align:left;
+    font-weight: 100;
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Estimate h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Estimate p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Estimate .Purpose{
+    margin-top: 30px;
+    height: 35px;
+    width: 15%;
+    margin-right: 30px;
+    padding: 5px 10px;
+}
+.Estimate #calculate{
+    background-color: #FB9107;
+}
+.Estimate label{
+    display: none;
+}
+.Estimate img{
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    bottom: 0px;
+    right: -200px;
+}
+/* /Estimate Section End */
+
+/* Blog Section Start */
+.blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+}
+.blog h2{
+    color: #000;
+    margin-bottom: 10px;
+}
+.blog h2+p{
+    text-align: center;
+    margin: 10px 200px;
+}
+.blog-content{
+    margin:10px auto;
+    display: flex;
+}
+.blog-content div{
+    display: flex;
+    padding: 10px;
+}
+.blog-content div img{
+    width: 150px;
+    height: 150px;
+}
+.blog-content div div{
+    display: inline-block;
+}
+.blog-content div div hr,
+.blog-content div div h3,
+.blog-content div div p{
+    margin: -2% 1% 3% 4%;
+}
+.blog-content div .bdr{
+    border-bottom: 5px red solid;
+    border-width:10px
+}
+/* /Blog Section End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+                url(../img/banner2.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+footer h3{
+    color: #918E97;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    color: #918E97;
+}
+footer ul li a span{
+    color: #fff;
+    font-weight: 500;
+}
+footer ul li a i{
+    font-size: 80%;
+}
+footer .international div{
+    display: flex;
+    justify-content: space-between;
+}
+footer .international div .int1{
+    margin-right: 50px;
+
+}
+footer .international div li{
+    margin: 5px 0px;
+}
+footer .international div img{
+    height: 10px;
+    width: 20px;
+    margin-right: 5px;
+} 
+/* Footer Section End */
