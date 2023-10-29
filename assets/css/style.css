@@ -101,12 +101,10 @@ header ul li .VG{
 }
 .banner form.trip label{
     display:inline-block;
-
     color: #131E3A;
     display: block;
 }
 .banner form .Trip-types{
-   
     margin-top: 8px;
 }
 .banner form .Trip-types select{
@@ -336,8 +334,11 @@ footer{
     padding: 50px 125px;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
                 url(../img/banner2.jpg);
+}
+footer .topfoot,
+footer .midfoot{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 footer h3{
     color: #918E97;
@@ -367,6 +368,7 @@ footer .international div .int1{
 
 }
 footer .international div li{
+    width: 120%;;
     margin: 5px 0px;
 }
 footer .international div img{
@@ -374,4 +376,44 @@ footer .international div img{
     width: 20px;
     margin-right: 5px;
 } 
+footer .midfoot .footmenu li{
+    display: inline-block;
+}
+footer img{
+    width:40px;
+    height:40px;
+    margin-left: 14%;
+    float: left;
+}
+.midfoot{
+    margin: 20px 10px;
+}
+.midfoot .footmenu{
+    padding-right: 90px;
+}
+.midfoot .footmenu ul li{
+    display: inline-block;
+    padding-right: 10px;
+    align-items: center;
+}
+.para{
+    color: #fff;
+}
+.midfoot .social{
+    display: inline-block;
+}
+.midfoot .social ul li{
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 10px;
+    padding: 0px 0px;
+}
+.bottomfoot p{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 5px 100px;
+    background-color: #e07ecb;
+    text-align: center;
+}
 /* Footer Section End */
