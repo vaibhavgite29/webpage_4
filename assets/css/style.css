@@ -1,67 +1,77 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
-h2{
+
+h2 {
     color: #fff;
     text-align: center;
     margin-bottom: 40px;
 }
+
 /* Header Section Start */
-header{
+header {
     width: 100%;
     height: 60px;
     color: #fff;
     display: flex;
     padding: 0px 125px;
     background: #131E3A;
-    justify-items:center;
+    justify-items: center;
     line-height: 60px;
     align-items: center;
     justify-content: space-between;
 }
-header ul li{
+
+header ul li {
     display: inline-block;
     margin-left: 15px;
 }
-header ul li a{
+
+header ul li a {
     font-weight: 600;
 }
-header ul li .VG{
+
+header ul li .VG {
     color: #f83958;
 }
+
 /* Header Section End */
 
 /* Banner section Start */
-.banner{
-    width:100%;
+.banner {
+    width: 100%;
     height: 580px;
     color: #fff;
     font-weight: 500;
     padding: 0px 125px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/main.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main.jpg);
     background-size: 100% 100%;
     position: relative;
 }
-.banner h1{
+
+.banner h1 {
     top: 100px;
     font-size: 50px;
     position: absolute;
     font-weight: normal;
 }
-.banner h2{
+
+.banner h2 {
     top: 230px;
     font-size: 30px;
     position: absolute;
 }
-.banner form{
+
+.banner form {
     width: 80%;
-    height: 100px;
+    height: auto;
     padding: 2px 8px;
     bottom: 50px;
     display: flex;
@@ -69,7 +79,8 @@ header ul li .VG{
     position: absolute;
     background-color: #5C327A;
 }
-.banner form button{
+
+.banner form button {
     width: 90px;
     height: 30px;
     color: #fff;
@@ -77,94 +88,110 @@ header ul li .VG{
     background: #43215c;
     border: none;
 }
-.banner form button.active{
+
+.banner form button.active {
     background: #FC2D4B;
 }
-.banner form .searchForm label{
+
+.banner form .searchForm label {
     display: none;
 }
-.banner form .searchForm{
+
+.banner form .searchForm {
     margin-top: 8px;
 }
+
 .banner form .searchForm input,
-.banner form .searchForm select{
+.banner form .searchForm select {
     width: 160px;
     height: 30px;
     margin-right: 5px;
 }
-.banner form button.smt{
+
+.banner form button.smt {
     width: 90px;
     height: 90px;
     background-color: #FC2D4B;
     border-radius: 50%;
     margin-left: 100px;
 }
-.banner form.trip label{
-    display:inline-block;
+
+.banner form.trip label {
+    display: inline-block;
     color: #131E3A;
     display: block;
 }
-.banner form .Trip-types{
+
+.banner form .Trip-types {
     margin-top: 8px;
 }
-.banner form .Trip-types select{
+
+.banner form .Trip-types select {
     width: 100px;
     height: 20px;
     margin-right: 10px;
     border: none;
     color: #fff;
-    background:#5C327A ;
-    text-decoration:  underline;
+    background: #5C327A;
+    text-decoration: underline;
 }
+
 /* Banner section End */
 
 /* Fun Section Start */
-.fun{
+.fun {
     width: 100%;
     height: 350px;
     padding: 50px 125px;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/banner2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner2.jpg);
     background-size: 100% 100%;
 }
-.fun h2{
+
+.fun h2 {
     color: #fff;
     text-align: center;
     margin-bottom: 40px;
 }
-.fun ul{
+
+.fun ul {
     display: flex;
     justify-content: space-between;
 }
-.fun ul li{
+
+.fun ul li {
     list-style: none;
     color: #fff;
     text-align: center;
     padding-top: 20px;
     width: 130px;
     height: 125px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
+
 .fun ul li p {
     margin: 5px 5px;
     font-size: 10px;
     font-weight: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.fun ul li i{
+
+.fun ul li i {
     font-size: 40px;
     margin: 5px 5px;
 }
+
 /* /Fun Section End */
 
 /* Newlatter Section Start */
-.flight{
+.flight {
     width: 100%;
     height: 300px;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/flight.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/flight.jpg);
     background-size: cover;
     position: relative;
 }
-.flight .Search{
+
+.flight .Search {
     position: absolute;
     top: 40%;
     right: 10%;
@@ -172,10 +199,12 @@ header ul li .VG{
     text-align: center;
     color: #fff;
 }
-.flight .Search p{
+
+.flight .Search p {
     margin-bottom: 30px;
 }
-.flight .Search h2{
+
+.flight .Search h2 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 40px;
@@ -183,7 +212,7 @@ header ul li .VG{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.flight .Search .Email{
+.flight .Search .Email {
     width: 70%;
     padding: 7px;
     color: #fff;
@@ -192,228 +221,411 @@ header ul li .VG{
     border: 1px #fff solid;
     margin-right: 10px;
 }
-.flight .Search .btn{
+
+.flight .Search .btn {
     padding: 7px 30px;
     font-weight: 600;
     border: none;
     margin-right: 7px;
     background-color: #fff;
 }
+
 /* /Newlatter Section End*/
 
 /* Destination Section Start */
-.destination{
+.destination {
     width: 100%;
     color: #fff;
     height: auto;
     padding: 50px 125px;
     background: #20162F;
 }
-.destination ul{
+
+.destination ul {
     display: grid;
     grid-template-columns: repeat(4, 23%);
     grid-template-rows: 350px 350px;
     grid-gap: 30px;
 }
-.destination ul li{
+
+.destination ul li {
     list-style: none;
     border-radius: 5px;
     text-align: center;
     background: #fff;
     border: 5px solid #fff;
 }
-.destination ul li img{
+
+.destination ul li img {
     width: 100%;
     height: 180px;
 }
-.destination ul li div.content{
+
+.destination ul li div.content {
     color: #000;
     padding: 15px;
 }
-.destination ul li div.content p{
+
+.destination ul li div.content p {
     margin-top: 20px;
 }
-div.content span{
+
+div.content span {
     color: orange;
 }
+
 /* /Destination Section End */
 
 /* Estimate Section Start */
-.Estimate{
+.Estimate {
     width: 100%;
     height: auto;
     position: relative;
     padding: 50px 125px;
     background-color: #664CAD;
 }
-.Estimate h2{
+
+.Estimate h2 {
     color: #fff;
     font-size: 40px;
-    text-align:left;
+    text-align: left;
     font-weight: 100;
     margin-bottom: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.Estimate h3{
+
+.Estimate h3 {
     color: #fff;
     font-size: 20px;
     margin-bottom: 0px;
     font-weight: 100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.Estimate p{
+
+.Estimate p {
     color: #fff;
     font-size: 20px;
     margin-bottom: 10px;
 }
-.Estimate .Purpose{
+
+.Estimate .Purpose {
     margin-top: 30px;
     height: 35px;
     width: 15%;
     margin-right: 30px;
     padding: 5px 10px;
 }
-.Estimate #calculate{
+
+.Estimate #calculate {
     background-color: #FB9107;
 }
-.Estimate label{
+
+.Estimate label {
     display: none;
 }
-.Estimate img{
-    width: 450px;
-    height: 250px;
+
+.Estimate img {
+    width: 250px;
+    height: 350px;
     position: absolute;
-    bottom: 0px;
-    right: -200px;
+    bottom: -40px;
+    right: -20px;
 }
+
 /* /Estimate Section End */
 
 /* Blog Section Start */
-.blog{
+.blog {
     width: 100%;
     height: auto;
     padding: 50px 125px;
 }
-.blog h2{
+
+.blog h2 {
     color: #000;
     margin-bottom: 10px;
 }
-.blog h2+p{
+
+.blog h2+p {
     text-align: center;
     margin: 10px 200px;
 }
-.blog-content{
-    margin:10px auto;
+
+.blog-content {
+    margin: 10px auto;
     display: flex;
 }
-.blog-content div{
+
+.blog-content div {
     display: flex;
     padding: 10px;
 }
-.blog-content div img{
+
+.blog-content div img {
     width: 150px;
     height: 150px;
 }
-.blog-content div div{
+
+.blog-content div div {
     display: inline-block;
 }
+
 .blog-content div div hr,
 .blog-content div div h3,
-.blog-content div div p{
+.blog-content div div p {
     margin: -2% 1% 3% 4%;
 }
-.blog-content div .bdr{
+
+.blog-content div .bdr {
     border-bottom: 5px red solid;
-    border-width:10px
+    border-width: 10px
 }
+
 /* /Blog Section End */
 /* Footer Section Start */
-footer{
+footer {
     width: 100%;
     height: auto;
     padding: 50px 125px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
-                url(../img/banner2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(../img/banner2.jpg);
 }
+
 footer .topfoot,
-footer .midfoot{
+footer .midfoot {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-footer h3{
+
+footer h3 {
     color: #918E97;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-footer ul li{
+
+footer ul li {
     list-style: none;
 }
-footer ul li a{
+
+footer ul li a {
     color: #918E97;
 }
-footer ul li a span{
+
+footer ul li a span {
     color: #fff;
     font-weight: 500;
 }
-footer ul li a i{
+
+footer ul li a i {
     font-size: 80%;
 }
-footer .international div{
+
+footer .international div {
     display: flex;
     justify-content: space-between;
 }
-footer .international div .int1{
+
+footer .international div .int1 {
     margin-right: 50px;
 
 }
-footer .international div li{
-    width: 120%;;
+
+footer .international div li {
+    width: 120%;
+    ;
     margin: 5px 0px;
 }
-footer .international div img{
+
+footer .international div img {
     height: 10px;
     width: 20px;
     margin-right: 5px;
-} 
-footer .midfoot .footmenu li{
+}
+
+footer .midfoot .footmenu li {
     display: inline-block;
 }
-footer img{
-    width:40px;
-    height:40px;
+
+footer img {
+    width: 40px;
+    height: 40px;
     margin-left: 14%;
     float: left;
 }
-.midfoot{
+
+.midfoot {
     margin: 20px 10px;
 }
-.midfoot .footmenu{
+
+.midfoot .footmenu {
     padding-right: 90px;
 }
-.midfoot .footmenu ul li{
+
+.midfoot .footmenu ul li {
     display: inline-block;
     padding-right: 10px;
     align-items: center;
 }
-.para{
+
+.para {
     color: #fff;
 }
-.midfoot .social{
+
+.midfoot .social {
     display: inline-block;
 }
-.midfoot .social ul li{
+
+.midfoot .social ul li {
     display: inline-block;
     font-size: 40px;
     margin-right: 10px;
     padding: 0px 0px;
 }
-.bottomfoot p{
+
+.bottomfoot p {
     width: 100%;
     height: auto;
     color: #fff;
-    padding: 5px 100px;
     background-color: #e07ecb;
     text-align: center;
 }
+
 /* Footer Section End */
+/* Media Query Section Start */
+@media screen and (max-width:1199px) {
+    header,
+    .banner,
+    .fun,
+    .flight,
+    .destination,
+    .Estimate,
+    .blog,
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .banner form {
+        width: 86%;
+    }
+    .banner form .searchForm input,
+    .banner form .searchForm select {
+        width: 17%;
+        /* padding-right: 0% !important;
+        margin-right: 0px !important; */
+    }
+    .banner form button.smt {
+        float: right !important;
+        margin-left: 0px;
+    }
+    .Estimate .Purpose {
+        width: 12%;
+        padding: 5px 0px;
+    }
+    .midfoot .footmenu ul li {
+        padding-right: 9px;
+    }
+    footer img {
+        margin-left: -20%;
+    }
+    .midfoot .social ul li {
+        display: flex;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .banner form .Trip-types select {
+        width: 12px;
+    }
+    .fun ul li {
+        width: 105px;
+        height: 115px;
+    }
+    .Estimate img {
+        width: 200px;
+        height: 350px;
+    }
+    .blog-content{
+        display: block;
+    }
+    footer .topfoot .left,
+    footer .topfoot .right{
+        display: block;
+    }
+    footer ul li a {
+        font-size: 100%;
+    }
+    footer h3{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header, .banner,
+    .fun, .flight,
+    .destination, .Estimate,
+    .blog, footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header .nav{
+        display: none;
+    }
+    .banner h1 {
+        top: 65px;
+        font-size: 30px;
+        position: absolute;
+        font-weight: normal;
+    }
+    .banner h2 {
+        top: 150px;
+        font-size: 20px;
+    }
+    .banner form{
+        width: 300px;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        left: 25%;
+        border-radius: 5px;
+        flex-direction: column;
+    }
+    .banner form .searchForm input,
+    .banner form .searchForm select {
+        display: block;
+        width: 100%;
+    }
+    .banner form .searchForm span{
+        display: none;
+    }
+    .banner form button.smt{
+        width: 280px;
+        height: 35px;
+        border-radius: 0px;
+        margin: 10px auto;
+    }
+    .Trip-types{
+        width: 100%;
+        display: block;
+    }
+    .fun ul{
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: 110px 110px;
+        grid-gap:10px;
+    }
+    .flight .Search {
+        top: 23%;
+        right: 3%;
+        line-height: normal;
+    }
+    .destination ul{
+        grid-template-columns: repeat(2, 47%);
+        grid-template-rows: 400px 400px;
+    }
+
+}
+
+/* Media Query Section End */
